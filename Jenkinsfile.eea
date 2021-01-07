@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    tagName = "1.0-snapshot"
+    tagName = "1.0"
   }
     agent { node { label 'docker' } }
     tools {
