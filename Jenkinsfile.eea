@@ -1,5 +1,7 @@
 pipeline {
-
+  environment {
+    tagName = "1.0-snapshot"
+  }
     agent { node { label 'docker' } }
     tools {
         maven 'maven3'
